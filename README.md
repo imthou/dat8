@@ -43,7 +43,7 @@ create a [GitHub](https://github.com/) account.
 ### Class 1: Introduction
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations [slides](./slides/01-course-overview.pdf)
-* Data science overview [slides](./slides/01-intro-data-science.pdf)
+* Data science overview [slides](./slides/01-introduction.pdf)
 
 **Post-class:**
 
