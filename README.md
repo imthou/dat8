@@ -65,3 +65,33 @@ create a [GitHub](https://github.com/) account.
 * [List of OS X Commands](resources/02-osx_unix_commands.md)
 * Book: ["The Linux Command Line"](http://linuxcommand.org/tlcl.php) <- free PDF!
 * Book: ["Data Science at the Command Line"](http://shop.oreilly.com/product/0636920032823.do), by Jeroen Janssens
+
+* In-class examples:
+	* **Number of dictionary words that start with a capital
+	letter:** ```grep '^[A-Z]' <words | wc -l```
+	* **Tweet usernames mentioned: ```grep -o "@\w* " deuszu_tweets.csv | sort | more```  (NOTE: This only retrieves usernames followed by a space!)
+	* **List the most-used words in Huckleberry Finn:** ```tr ' ' '\n' <finn.txt | tr -d ',."' | sort | uniq -c | sort -r | head```
+
+
+**Post-class:**
+
+* Do the [Python prework](./hw/03-python-prework.py)
+* Try some [Python problems](./hw/02-python-problem-solving.pdf)
+* If you need more practice with Python, review the "Python Overview"
+section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/5920182), read [Dive into Python 3](http://www.diveintopython3.net/), try some of [Codecademy's Python course](http://www.codecademy.com/en/tracks/python), or work through [Google's Python Class](https://developers.google.com/edu/python/) and its exercises.
+* More command-line challenges:
+	* Using one ```sort``` command, can you sort 'shopping.lst' by the second column? (Hint: ```man sort```)
+	* Look up ```man cut```. Using ```cut```, from 'shopping.lst', make a list of unique products without the quanitites or commas.
+	* In 'epa-http.txt', how many unique visitors visited the EPA's servers? (the first column)
+	* Using ```tail``` to skip the first few lines, reformat 'primes1.txt' to be a list of primes, one per line.
+	* Combine 'primes1.txt' and 'primes2.txt' into a single file with 2 million primes. Figure out how to do this two different ways, with ```cat``` and ```sort```.
+	* Our in-class example of tweet mentions only makes a list of usernames followed by a space! (Why?) Can you rewrite it to make a list of all tweet usernames mentioned?
+	* In 'epa-http.txt', find all PDFs that people searched for.
+	* Look up ```sed``` and rework the Huckleberry Finn example so that "'t" is replaced with " not" throughout the text, so that 't' is not one of the most-used "words"!
+
+
+### Class 3: Python for Data Science
+
+* Review Python and problem solving techniques
+* Practice writing command-line scripts
+* Python group exercises!
