@@ -90,8 +90,33 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 	* Look up ```sed``` and rework the Huckleberry Finn example so that "'t" is replaced with " not" throughout the text, so that 't' is not one of the most-used "words"!
 
 
-### Class 3: Python for Data Science
+### Class 3: Python
 
 * Review Python and problem solving techniques
 * Practice writing command-line scripts
 * Python group exercises!
+* [Slides](./slides/03-intro-python.pdf)
+
+**Post-class:**
+
+* Practice writing functions! Here are some practice problems that lead up to solving Project Euler Problem 3:
+	* Look up the modulo operator (%). What does it do? In your head, what is 4 % 3? 10 % 4? 15 % 5? Using the modulo operator, write a function "is_multiple(n, m)" which returns True if n is a multiple of m. (A number is a multiple if it divides evenly with 0 remainder. For example, 10 is a multiple of 5. So, is_multiple(10, 5) will return True.)
+
+	* Write a function "factors(num)" that returns a list of the factors of num. For example, factors(30) returns [1, 2, 3, 5, 6, 10, 15, 30]. (For each number 1 to 30, test whether 30 is a multiple of it. Bonus: can you write this function as a list comprehension?)
+
+	* Write a function "is_prime(num)" that returns True if num is prime. (A number is prime only if it has exactly two factors -- 1 and itself.)
+
+	* [Project Euler Problem 3](https://projecteuler.net/problem=3): The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143? NOTE: If this takes too much time, consider whether you need to test all numbers from 1..N to find the factors of N. For example, note that each factor has a pair: 2x30 = 60, 4x15 = 60, 5x12 = 60, and 6x10 = 60.
+
+
+### Class 4: Git and Python Problem Solving
+
+* Python techniques -- zip, files, lists/tuples, sets, exceptions, list comprehensions, string formatting, datetime
+* Git intro -- how to clone/pull, how to fork/commit/pull request. See instructions in the [student repository](https://github.com/ga-students/dat-la-07-students).
+
+** Extra Git resources:**
+	* [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
+	* [CodeSchool: Try Git](https://www.codeschool.com/courses/try-git) - A basic, interactive course using GitHub 
+	* [Pro Git](https://progit.org/) - THE book to Git. (Free online)
+	* [Git Pretty: Flowchart for if you mess up](http://justinhileman.info/article/git-pretty/)
+	* [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/) - More comprehensive 
