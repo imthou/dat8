@@ -116,14 +116,9 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Python techniques -- zip, files, lists/tuples, sets, exceptions, list comprehensions, string formatting, datetime
 * Git intro -- how to clone/pull, how to fork/commit/pull request. See instructions in the [student repository](https://github.com/ga-students/dat-la-07-students).
 
-** Extra Git resources:**
-
+* **Extra Git resources:**
 	* [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
-
 	* [CodeSchool: Try Git](https://www.codeschool.com/courses/try-git) - A basic, interactive course using GitHub 
-
 	* [Pro Git](https://progit.org/) - THE book to Git. (Free online)
-
 	* [Git Pretty: Flowchart for if you mess up](http://justinhileman.info/article/git-pretty/)
-
 	* [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/) - More comprehensive 
