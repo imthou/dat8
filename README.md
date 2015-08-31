@@ -106,7 +106,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 
 	* Write a function ```is_prime(num)``` that returns True if num is prime. (A number is prime only if it has exactly two factors -- 1 and itself.)
 
-	* [Project Euler Problem 3](https://projecteuler.net/problem=3): The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143? NOTE: If this takes too much time, consider whether you need to test all numbers from 1..N to find the factors of N. For example, note that each factor has a pair: 2x30 = 60, 4x15 = 60, 5x12 = 60, and 6x10 = 60.
+	* [Project Euler Problem 3](https://projecteuler.net/problem=3): The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143? NOTE: If this takes too much time, consider whether you need to test all numbers from 1..N to find the factors of N. For example, note that each factor has a pair: 1x60 = 60, 2x30 = 60, 4x15 = 60, 5x12 = 60, and 6x10 = 60. To discover what number to test up to, what are the factors of 36?
 
 
 ### Class 4: Git and Python Problem Solving
