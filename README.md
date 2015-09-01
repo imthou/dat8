@@ -69,12 +69,13 @@ create a [GitHub](https://github.com/) account.
 * In-class examples:
 	* **Number of dictionary words that start with a capital
 	letter:** ```grep '^[A-Z]' <words | wc -l```
-	* **Tweet usernames mentioned: ```grep -o "@\w* " deuszu_tweets.csv | sort | more```  (NOTE: This only retrieves usernames followed by a space!)
+	* **Tweet usernames mentioned:** ```grep -o "@\w* " deuszu_tweets.csv | sort | more```  (NOTE: This only retrieves usernames followed by a space!)
 	* **List the most-used words in Huckleberry Finn:** ```tr ' ' '\n' <finn.txt | tr -d ',."' | sort | uniq -c | sort -r | head```
 
 
 **Post-class:**
 
+* [Command-line tools specific to Mac OS!](http://www.mitchchn.me/2014/os-x-terminal/)
 * Do the [Python prework](./hw/03-python-prework.py)
 * Try some [Python problems](./hw/02-python-problem-solving.pdf)
 * If you need more practice with Python, review the "Python Overview"
