@@ -15,14 +15,15 @@ repository](https://github.com/ga-students/DAT-LA-08-STUDENTS).
 
 **Resources:** [Recommended Course Books](books.md)
 
+[HOMEWORK ONE: Python & Linear Regression](./hw/hw1.pdf) - Due Monday, Sep. 14
 
 Week | Monday | Wednesday
 --- | --- | ---
 1 | 8/24: [Introduction](#class-1-introduction) | 8/26: [Command-Line Tools](#class-2-command-line-tools-for-data-science)
-2 | 8/31: [Python](#class-3-python) | 9/02: [Git & Python: Problem Solving](#class-4-git-and-python-problem-solving)
-3 | 9/07: No Class (Labor Day) | 9/09: [APIs & Web Scraping](#class-5-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due
-4 | 9/14: [Statistics & k-NN from Scratch](#class-6-statistics-and-knn)<br>**Milestone:** Know Your Question and Data Set | 9/16: [NumPy & Linear Regression from Scratch](#class-7-numpy-and-linear-regression)
-5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas) | 9/23: [scikit-learn & k-Means Clustering](#class-9-scikit-learn-linear-regression)<br>**Homework:** [HW2](./hw/hw2.pdf) due
+2 | 8/31: [Python](#class-3-python) | 9/02: [Git & Python Techniques](#class-4-git-and-python-techniques)
+3 | 9/07: No Class (Labor Day) | 9/09: [Machine Learning & Linear Regression from Scratch](#class-6-statistics-and-linear-regression)
+4 | 9/14: [APIs & Web Scraping](#class-5-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN from Scratch](#class-7-numpy-and-k-nn)
+5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas)<br>**Milestone:** Know Your Question and Data Set | 9/23: [scikit-learn & k-Means Clustering](#class-9-scikit-learn-linear-regression)<br>**Homework:** [HW2](./hw/hw2.pdf) due
 6 | 9/28: [Linear Regression II & Data Distributions](#class-10-linear-regression-ii-and-data-distributions) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
 7 | 10/05: [Neural Networks I](#class-12-neural-networks-i) | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)<br>**Milestone:** Data Analysis and Exploration
 8 | 10/12: [Image Data: Neural Networks II](#class-14-image-data-neural-networks-ii) | 10/14: [Feature Selection & Dimensionality Reduction](#class-15-feature-selection-and-dimensionality-reduction)<br>**Homework:** [HW3](./hw/hw3.pdf) due
@@ -112,10 +113,11 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 	* NOTE: If your code takes too much time, consider whether you need to test all numbers from 1..N to find the factors of N. For example, note that each factor has a pair: 1x60 = 60, 2x30 = 60, 4x15 = 60, 5x12 = 60, and 6x10 = 60. Experiment with this pairing idea -- what are the factors of 36?
 
 
-### Class 4: Git and Python Problem Solving
+### Class 4: Git and Python Techniques
 
 * Python techniques -- zip, files, lists/tuples, sets, exceptions, list comprehensions, string formatting, datetime
 * Git intro -- how to clone/pull, how to fork/commit/pull request. See instructions in the [student repository](https://github.com/ga-students/dat-la-07-students).
+* [Python Techniques Slides](./slides/04-more-python
 
 * **Extra Git resources:**
 	* [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
