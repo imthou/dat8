@@ -7,7 +7,7 @@ in Los Angeles, CA (August 24 - November 9, 2015). View student work in
 the [student
 repository](https://github.com/ga-students/DAT-LA-08-STUDENTS).
 
-**Instructor:** Dan Wilhelm.
+**Instructor:** Dan Wilhelm. **Expert-In-Residence:** Frank Portman
 
 **Office hours:** TBD. 
 
