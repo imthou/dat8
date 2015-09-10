@@ -137,6 +137,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Simple validation techniques
 * Bias/Variance
 * Derive linear regression through the origin [exercise](./code/05-basic-regression.py) | [solution](./code/05-basic-regression-complete.py)
+* **HW1 due Monday!**
 
 * **Post-class:**
 	* For a great intro to statistical learning, read chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - PDF is free on their website!
