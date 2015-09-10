@@ -136,5 +136,23 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Machine learning
 * Simple validation techniques
 * Bias/Variance
-* Derive linear regression through the origin.
-* Code linear regression in PyCharm
+* Derive linear regression through the origin [exercise](./05-basic-regression.py) | [solution](./05-basic-regression-complete.py)
+
+* **Post-class:**
+	* For a great intro to statistical learning, read chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - PDF is free on their website!
+	* Try to re-derive regression through the origin. (y = mx)
+	* Try to derive general 2-D linear regression algebraically (y = mx + b) (see [this PDF](http://isites.harvard.edu/fs/docs/icb.topic515975.files/OLSDerivation.pdf))
+	* Want more practice with Calculus, Statistics, or Probability? [Brilliant.org](https://brilliant.org) has excellent introductions to each of these, with plenty of practice problems.
+	* To be most effective at web scraping, read a basic [CSS selector tutorial](https://css-tricks.com/how-css-selectors-work/), or [this one](http://www.sitepoint.com/web-foundations/css-selectors/).
+
+* **Extra:**
+	* Need more Python practice? Try this [code commenting exercise](./code/05-python-exercise.py).
+	* A collection of [Euler 8 solutions](./code/05-euler8-solutions.py).
+	* Interested in an [Euler 3 solution](./code/05-euler3-solutions.py) from last week's class?
+
+### Class 6: APIs and Web Scraping
+
+* Intro to PyCharm
+* Getting data from text files, e.g. CSV
+* Calling APIs (using [requests](http://docs.python-requests.org/en/latest/))
+* Web scraping (using [requests](http://docs.python-requests.org/en/latest/) and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/))
