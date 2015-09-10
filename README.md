@@ -136,7 +136,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Machine learning
 * Simple validation techniques
 * Bias/Variance
-* Derive linear regression through the origin [exercise](./05-basic-regression.py) | [solution](./05-basic-regression-complete.py)
+* Derive linear regression through the origin [exercise](./code/05-basic-regression.py) | [solution](./code/05-basic-regression-complete.py)
 
 * **Post-class:**
 	* For a great intro to statistical learning, read chapter 2 of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - PDF is free on their website!
@@ -146,7 +146,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 	* To be most effective at web scraping, read a basic [CSS selector tutorial](https://css-tricks.com/how-css-selectors-work/), or [this one](http://www.sitepoint.com/web-foundations/css-selectors/).
 
 * **Extra:**
-	* Need more Python practice? Try this [code commenting exercise](./code/05-python-exercise.py).
+	* Need more Python practice? Try this [code commenting exercise](./code/05-python-exercise.md).
 	* A collection of [Euler 8 solutions](./code/05-euler8-solutions.py).
 	* Interested in an [Euler 3 solution](./code/05-euler3-solutions.py) from last week's class?
 
