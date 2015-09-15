@@ -22,7 +22,7 @@ Week | Monday | Wednesday
 1 | 8/24: [Introduction](#class-1-introduction) | 8/26: [Command-Line Tools](#class-2-command-line-tools-for-data-science)
 2 | 8/31: [Python](#class-3-python) | 9/02: [Git & Python Techniques](#class-4-git-and-python-techniques)
 3 | 9/07: No Class (Labor Day) | 9/09: [Machine Learning & Linear Regression from Scratch](#class-5-machine-learning-and-linear-regression)
-4 | 9/14: [APIs & Web Scraping](#class-6-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN from Scratch](#class-7-numpy-and-k-nn)
+4 | 9/14: [APIs & Web Scraping](#class-6-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN](#class-7-numpy-and-k-nn)
 5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas)<br>**Milestone:** Know Your Question and Data Set | 9/23: [scikit-learn & k-Means Clustering](#class-9-scikit-learn-linear-regression)<br>**Homework:** [HW2](./hw/hw2.pdf) due
 6 | 9/28: [Linear Regression II & Data Distributions](#class-10-linear-regression-ii-and-data-distributions) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
 7 | 10/05: [Neural Networks I](#class-12-neural-networks-i) | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)<br>**Milestone:** Data Analysis and Exploration
@@ -157,3 +157,34 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Getting data from text files, e.g. CSV
 * Calling APIs (using [requests](http://docs.python-requests.org/en/latest/))
 * Web scraping (using [requests](http://docs.python-requests.org/en/latest/) and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/))
+
+* **Post-class:**
+	* Great [scraping exercises](https://github.com/compjour/search-script-scrape/)!
+	* Want some API suggestions? 
+	- [Facebook](https://developers.facebook.com/)
+	- [Foursquare](https://developer.foursquare.com/)
+	- [Google Calendar](https://developers.google.com/google-apps/calendar/?csw=1)
+	- [Instagram](http://instagram.com/developer/)
+	- [Soundcloud](http://developers.soundcloud.com/)
+	- [Twilio](https://www.twilio.com/docs/api/rest) 
+	- [Twitter](https://dev.twitter.com/)
+	- [Yelp](http://www.yelp.com/developers/manage_api_keys)
+	- [YouTube](https://developers.google.com/youtube/getting_started?csw=1#data_api)
+	- [Uber](https://developer.uber.com/getting-started/)
+	- [Sunlight Foundation](http://sunlightfoundation.com/api/) - Open Government Data
+	- [words api](https://www.wordsapi.com/) - For the english language
+	- [ziplocate.us](http://ziplocate.us/) - An API for zip code geolocation
+	- [wit.ai](https://wit.ai/) - Turn speech into actionable data
+	- [api.ai](http://api.ai) - Speech interface for apps and devices
+	- [context.io](http://context.io/) - Build awesome things with email
+	- [plaid](https://plaid.com/) - The API for banking data.
+	- [face++](http://www.faceplusplus.com/) - API for facial recognition
+	- [boomerang.io](http://www.boomerang.io/) - Reminders for Developers
+	- [6px.io](https://6px.io/) - A simple, scalable platform for image processing.
+
+### Class 7: NumPy and K-NN
+* NumPy basics
+* k-NN as a model
+
+* **Post-class:**
+	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial)
