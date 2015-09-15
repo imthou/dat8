@@ -157,6 +157,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Getting data from text files, e.g. CSV
 * Calling APIs (using [requests](http://docs.python-requests.org/en/latest/))
 * Web scraping (using [requests](http://docs.python-requests.org/en/latest/) and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/))
+* [Slides](./slides/06-apis-scraping.pdf)
 
 * **Post-class:**
 	* Great [scraping exercises](https://github.com/compjour/search-script-scrape/)!
