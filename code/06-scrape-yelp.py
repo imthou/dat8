@@ -16,7 +16,7 @@ address = bs.select('address')[0].text.strip()
 # <p itemprop="description">Review Here</p>
 reviews = [review.text for review in bs.select('p[itemprop="description"]')]
 
-# <meta itemprop="ratingValue content="3.0" />
+# <meta itemprop="ratingValue" content="3.0" />
 rating_tags = bs.select('meta[itemprop="ratingValue"]')
 ratings = [float(tag.attrs['content']) for tag in rating_tags]   
 
