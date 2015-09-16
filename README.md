@@ -15,7 +15,9 @@ repository](https://github.com/ga-students/DAT-LA-08-STUDENTS).
 
 **Resources:** [Recommended Course Books](books.md)
 
-[HOMEWORK ONE: Python & Linear Regression](./hw/hw1.pdf) - Due Monday, Sep. 14
+Homeworks:
+* [HOMEWORK ONE: Python & Linear Regression](./hw/hw1.pdf) - Due Monday, Sep. 14
+* [HOMEWORK TWO: k-NN & Cross-Validation](./hw/hw2.pdf) - Due Wednesday, Sep. 23
 
 Week | Monday | Wednesday
 --- | --- | ---
@@ -157,7 +159,9 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Getting data from text files, e.g. CSV
 * Calling APIs (using [requests](http://docs.python-requests.org/en/latest/))
 * Web scraping (using [requests](http://docs.python-requests.org/en/latest/) and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/))
-* [Slides](./slides/06-apis-scraping.pdf)
+* [Slides](./slides/06-apis-scraping.pdf) <-- _Updated with more CSS Selector & Yelp examples!_
+* CSV In-class Examples: [legislators](./code/06-csv-legislators.py) | [college earnings](./code/06-csv-earnings.py) | [drones](./code/06-csv-legislators.py)
+* Scraping In-class Examples: [Google News](./code/06-scrape-google-news.py) | [Yelp](./code/06-csv-scrape-yelp.py)
 
 * **Post-class:**
 	* Great [scraping exercises](https://github.com/compjour/search-script-scrape/)!
@@ -184,8 +188,21 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 	- [6px.io](https://6px.io/) - A simple, scalable platform for image processing.
 
 ### Class 7: NumPy and K-NN
-* NumPy basics
-* k-NN as a model
+* APIs [Slides](./slides/06-apis-scraping.pdf)
+* Getting lists of URLs
+* k-Nearest Neighbors
+* Cross-validation
+* NumPy intro [Slides](./slides/07-numpy-matplotlib.pdf) [Notes](./resources/07-numpy-ref.py)
 
 * **Post-class:**
-	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial)
+	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). It is also [available on archive.org](https://web.archive.org/web/20150905081902/http://wiki.scipy.org/Tentative_NumPy_Tutorial).
+	* Do the official Pandas tutorial: [Ten minutes to Pandas](http://pandas.pydata.org/pandas-docs/dev/10min.html)
+	* 
+
+### Class 8: Data Exploration with Pandas
+* More NumPy [Slides](./slides/07-numpy-matplotlib.pdf) [Notes](./resources/07-numpy-ref.py)
+* Using Jupyter
+* Intro to Pandas
+* Analyzing the Athletes dataset using Pandas
+
+* **Post-class:**
