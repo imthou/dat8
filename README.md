@@ -213,10 +213,12 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 
 	- For parsing athlete dates, some were of the form '28/02/1986 (KOR)'. So, a custom date parsing function was written that only parses the text before the first space. 
 
-	```def parse_date(date_str):
+	```
+	def parse_date(date_str):
 		return parse(date_str.split(' ')[0])
-
-	athletes = pd.read_csv(ATHLETES_FILE, parse_dates=['birth_date'], date_parser=parse_date)```
+	
+	athletes = pd.read_csv(ATHLETES_FILE, parse_dates=['birth_date'], date_parser=parse_date)
+	```
 
 
 * **Post-class:**
