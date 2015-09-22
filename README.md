@@ -228,7 +228,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 
 Try out Pandas:
  * Official tutorial: [Ten minutes to Pandas](http://pandas.pydata.org/pandas-docs/dev/10min.html)
- * Check out this excellent example of [data wrangling and exploration in Pandas](https://github.com/cs109/content/blob/master/lec_04_wrangling.ipynb). Here are [suggestions how to learn the most from this](./resources/08-pandas-exercises.md).
+ * Check out this excellent example of [data wrangling and exploration in Pandas](https://github.com/cs109/content/blob/master/lec_04_wrangling.ipynb). Here are [suggestions how to learn the most from this](./resources/09-pandas-exercises.md).
  * [Intro to Pandas via Kaggle Titanic Data](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii)
  * [Research Computing Python Data PYNBs](http://nbviewer.ipython.org/github/ResearchComputing/Meetup-Fall-2013/tree/master/python/): There are a ton of additional data sets and lectures about pandas. Consider going through these to continue practicing your python data manipulation.
 
