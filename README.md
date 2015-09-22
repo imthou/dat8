@@ -25,7 +25,7 @@ Week | Monday | Wednesday
 2 | 8/31: [Python](#class-3-python) | 9/02: [Git & Python Techniques](#class-4-git-and-python-techniques)
 3 | 9/07: No Class (Labor Day) | 9/09: [Machine Learning & Linear Regression from Scratch](#class-5-machine-learning-and-linear-regression)
 4 | 9/14: [APIs & Web Scraping](#class-6-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN](#class-7-numpy-and-k-nn)
-5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas)<br>**Milestone:** Know Your Question and Data Set | 9/23: [scikit-learn & k-Means Clustering](#class-9-scikit-learn-linear-regression)<br>**Homework:** [HW2](./hw/hw2.pdf) due
+5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas)<br>**Milestone:** Know Your Question and Data Set | 9/23: [scikit-learn](#class-9-scikit-learn)<br>**Homework:** [HW2](./hw/hw2.pdf) due
 6 | 9/28: [Linear Regression II & Data Distributions](#class-10-linear-regression-ii-and-data-distributions) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
 7 | 10/05: [Neural Networks I](#class-12-neural-networks-i) | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)<br>**Milestone:** Data Analysis and Exploration
 8 | 10/12: [Image Data: Neural Networks II](#class-14-image-data-neural-networks-ii) | 10/14: [Feature Selection & Dimensionality Reduction](#class-15-feature-selection-and-dimensionality-reduction)<br>**Homework:** [HW3](./hw/hw3.pdf) due
@@ -165,44 +165,60 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 
 * **Post-class:**
 	* Great [scraping exercises](https://github.com/compjour/search-script-scrape/)!
-	* Want some API suggestions? 
-	- [Facebook](https://developers.facebook.com/)
-	- [Foursquare](https://developer.foursquare.com/)
-	- [Google Calendar](https://developers.google.com/google-apps/calendar/?csw=1)
-	- [Instagram](http://instagram.com/developer/)
-	- [Soundcloud](http://developers.soundcloud.com/)
-	- [Twilio](https://www.twilio.com/docs/api/rest) 
-	- [Twitter](https://dev.twitter.com/)
-	- [Yelp](http://www.yelp.com/developers/manage_api_keys)
-	- [YouTube](https://developers.google.com/youtube/getting_started?csw=1#data_api)
-	- [Uber](https://developer.uber.com/getting-started/)
-	- [Sunlight Foundation](http://sunlightfoundation.com/api/) - Open Government Data
-	- [words api](https://www.wordsapi.com/) - For the english language
-	- [ziplocate.us](http://ziplocate.us/) - An API for zip code geolocation
-	- [wit.ai](https://wit.ai/) - Turn speech into actionable data
-	- [api.ai](http://api.ai) - Speech interface for apps and devices
-	- [context.io](http://context.io/) - Build awesome things with email
-	- [plaid](https://plaid.com/) - The API for banking data.
-	- [face++](http://www.faceplusplus.com/) - API for facial recognition
-	- [boomerang.io](http://www.boomerang.io/) - Reminders for Developers
-	- [6px.io](https://6px.io/) - A simple, scalable platform for image processing.
 
 ### Class 7: NumPy and K-NN
 * APIs [Slides](./slides/06-apis-scraping.pdf)
 * Getting lists of URLs
-* k-Nearest Neighbors
-* Cross-validation
-* NumPy intro [Slides](./slides/07-numpy-matplotlib.pdf) [Notes](./resources/07-numpy-ref.py)
+* k-Nearest Neighbors [Slides](./slides/07-knn.pdf)
+* Cross-validation [Slides](./slides/07-cross-validation.pdf)
+* NumPy intro [Slides](./slides/07-numpy-matplotlib.pdf) | [Notes](./resources/07-numpy-ref.py)
+* In-class [Wordnik API example](./code/07-api-wordnik.py)
 
 * **Post-class:**
-	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). It is also [available on archive.org](https://web.archive.org/web/20150905081902/http://wiki.scipy.org/Tentative_NumPy_Tutorial).
-	* Do the official Pandas tutorial: [Ten minutes to Pandas](http://pandas.pydata.org/pandas-docs/dev/10min.html)
-	* 
+	* [K-Nearest Neighbors videos](https://www.youtube.com/watch?v=_EEcjn0Uirw)
+	* Want more [distance measures](http://www.mickaellegal.com/blog/2014/1/30/how-to-build-a-recommender)?
+	* Run and understand the code from this [Mashable scraping example](./code/07-mashable-example).
+	* Interested in [accessing APIs from the command-line](./code/04-api-lab.md)?
+	* Practice APIs -- want some suggestions? 
+		- [Facebook](https://developers.facebook.com/)
+		- [Foursquare](https://developer.foursquare.com/)
+		- [Google Calendar](https://developers.google.com/google-apps/calendar/?csw=1)
+		- [Instagram](http://instagram.com/developer/)
+		- [Soundcloud](http://developers.soundcloud.com/)
+		- [Twilio](https://www.twilio.com/docs/api/rest) 
+		- [Twitter](https://dev.twitter.com/) (Try using [TwitterAPI](https://github.com/geduldig/TwitterAPI) to get tweets -- it handles OAuth authentication for you!)
+		- [Yelp](http://www.yelp.com/developers/manage_api_keys)
+		- [YouTube](https://developers.google.com/youtube/getting_started?csw=1#data_api)
+		- [Uber](https://developer.uber.com/getting-started/)
+		- [Sunlight Foundation](http://sunlightfoundation.com/api/) - Open Government Data
+		- [words api](https://www.wordsapi.com/) - For the english language
+		- [ziplocate.us](http://ziplocate.us/) - An API for zip code geolocation
+		- [wit.ai](https://wit.ai/) - Turn speech into actionable data
+		- [api.ai](http://api.ai) - Speech interface for apps and devices
+		- [context.io](http://context.io/) - Build awesome things with email
+		- [plaid](https://plaid.com/) - The API for banking data.
+		- [face++](http://www.faceplusplus.com/) - API for facial recognition
+		- [boomerang.io](http://www.boomerang.io/) - Reminders for Developers
+		- [6px.io](https://6px.io/) - A simple, scalable platform for image processing.
 
 ### Class 8: Data Exploration with Pandas
-* More NumPy [Slides](./slides/07-numpy-matplotlib.pdf) [Notes](./resources/07-numpy-ref.py)
-* Using Jupyter
-* Intro to Pandas
+* Intro to NumPy: ndarray | [NumPy Slides](./slides/08-numpy-matplotlib.pdf) | [Notes](./resources/08-numpy-ref.py)
+* Intro to Pandas: Series, DataFrame | [Pandas Slides](./slides/09-pandas.pdf)
+* Using Jupyter | [In-Class Notebook](./notebooks/09-first-notebook.ipynb)
 * Analyzing the Athletes dataset using Pandas
 
 * **Post-class:**
+	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). It is also [available on archive.org](https://web.archive.org/web/20150905081902/http://wiki.scipy.org/Tentative_NumPy_Tutorial).
+	* Do the [Pandas Chicago dataset exercise](./exercises/ex1-housing-prices.md)
+
+Try out Pandas:
+ * Official tutorial: [Ten minutes to Pandas](http://pandas.pydata.org/pandas-docs/dev/10min.html)
+ * Check out this excellent example of [data wrangling and exploration in Pandas](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb). Here are [suggestions how to learn the most from this](./resources/08-pandas-exercises.md).
+ * [Intro to Pandas via Kaggle Titanic Data](https://www.kaggle.com/c/titanic/details/getting-started-with-python-ii)
+ * [Research Computing Python Data PYNBs](http://nbviewer.ipython.org/github/ResearchComputing/Meetup-Fall-2013/tree/master/python/): There are a ton of additional data sets and lectures about pandas. Consider going through these to continue practicing your python data manipulation.
+
+
+### Class 9: Scikit-learn
+ * More Pandas practice!
+ * Implement [scikit-learn KNN](http://scikit-learn.org/stable/modules/neighbors.html) and [scikit-learn linear regression](http://scikit-learn.org/stable/modules/linear_model.html) ([another example](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html]) via scikit-learn
+
