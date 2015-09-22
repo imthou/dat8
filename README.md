@@ -222,6 +222,7 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 
 
 * **Post-class:**
+	* Do these review Jupyter Notebooks, if needed! [Python Basics](./notebooks/09-python-lab.ipynb), [NumPy](./notebooks/09-numpy-scipy.ipynb)
 	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). It is also [available on archive.org](https://web.archive.org/web/20150905081902/http://wiki.scipy.org/Tentative_NumPy_Tutorial).
 	* Do the [Pandas Chicago dataset exercise](./exercises/ex1-housing-prices.md)
 
