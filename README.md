@@ -208,8 +208,9 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Analyzing the Athletes dataset using Pandas
 
 In-class followups:
-	* [Full list of Matplotlib style string options](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot)
 	
+	* [Full list of Matplotlib style string options](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot)
+
 	* For parsing athlete dates, some were of the form '28/02/1986 (KOR)'. So, a custom date parsing function was written that only parses the text before the first space. 
 
 	```def parse_date(date_str):
