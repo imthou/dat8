@@ -207,6 +207,17 @@ section of [A Crash Course in Python](http://nbviewer.ipython.org/gist/rpmuller/
 * Using Jupyter | [In-Class Notebook](./notebooks/09-first-notebook.ipynb)
 * Analyzing the Athletes dataset using Pandas
 
+In-class followups:
+	* [Full list of Matplotlib style string options](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot)
+	
+	* For parsing athlete dates, some were of the form '28/02/1986 (KOR)'. So, a custom date parsing function was written that only parses the text before the first space. 
+
+	```def parse_date(date_str):
+		return parse(date_str.split(' ')[0])
+
+	athletes = pd.read_csv(ATHLETES_FILE, parse_dates=['birth_date'], date_parser=parse_date)```
+
+
 * **Post-class:**
 	* Do the [official NumPy tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). It is also [available on archive.org](https://web.archive.org/web/20150905081902/http://wiki.scipy.org/Tentative_NumPy_Tutorial).
 	* Do the [Pandas Chicago dataset exercise](./exercises/ex1-housing-prices.md)
