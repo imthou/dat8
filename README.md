@@ -16,8 +16,14 @@ repository](https://github.com/ga-students/DAT-LA-08-STUDENTS).
 **Resources:** [Recommended Course Books](books.md)
 
 Homeworks:
-* [HOMEWORK ONE: Python & Linear Regression](./hw/hw1.pdf) - Due Monday, Sep. 14
-* [HOMEWORK TWO: k-NN & Cross-Validation](./hw/hw2.pdf) - Due Wednesday, Sep. 23
+* [HW1: Python & Linear Regression](./hw/hw1.pdf) - Due Monday, Sep. 14
+* [HW2: k-NN & Cross-Validation](./hw/hw2.pdf) - Due Wednesday, Sep. 23
+* [HW3: Linear Regression](./hw/hw3.pdf) - Due Monday, Oct. 5
+
+Exercises:
+* [EX1: Chicago Housing Prices (Data Exploration)](./ex/ex1-housing-prices.md)
+* [EX2: Matrix Regression (Matrix LinReg)](./ex/ex2-matrix-regression.py)
+* [EX3: Student Logins (LinReg)](./ex/ex3-student-logins.md)
 
 Week | Monday | Wednesday
 --- | --- | ---
