@@ -44,7 +44,7 @@ If it's not possible or practical to include your entire dataset, you should lin
 ## Milestones
 
 
-### June 15: Question and Data Set
+### September 23: Question and Data Set
 
 What is the question you hope to answer? What data are you planning to use to answer that question? What do you know about the data so far? Why did you choose this topic?
 
@@ -55,7 +55,7 @@ Example:
 * I chose this topic because I'm fascinated by the history of the Titanic.
 
 
-### July 1: Data Exploration and Analysis Plan
+### October 7: Data Exploration and Analysis Plan
 
 What data have you gathered, and how did you gather it? What steps have you taken to explore the data? Which areas of the data have you cleaned, and which areas still need cleaning? What insights have you gained from your exploration? Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)? How might you use modeling to answer your question?
 
@@ -68,14 +68,14 @@ Example:
 * Since I'm predicting a binary outcome, I plan to use a classification method such as logistic regression to make my predictions.
 
 
-### July 8: Deadline for Topic Changes
+### October 14: Deadline for Topic Changes
 
 You may discover during the course of your data exploration that you don't have the data necessary to answer your project question. Talk to your instructors about how to find the data that will help you answer your question!
 
 If you can't find the necessary data and decide that you need to alter your project question, you should submit a description of your revised project no later than this date.
 
 
-### July 22: First Draft Due
+### October 21: First Draft Due
 
 Zip up all files relevant to your project, and email them to Sinan. Your peers and instructors will provide feedback, according to [these guidelines](peer_review.md).
 
@@ -95,11 +95,11 @@ Tips for success:
 * If your reviewers can actually run your code on the provided data, they will be able to give you more useful feedback on your code. (It can be very hard to make useful code suggestions on code that can't be run!)
 
 
-### August 5: Second Draft Due (Optional)
+### October 28: Second Draft Due (Optional)
 
 If you would like additional feedback on your project, submit a revised version of your project. Your instructors will provide feedback. (There is no peer review for the second draft.)
 
 
-### August 10 and 12: Presentations!
+### November 9: Presentations!
 
 Deliver your project presentation in class, and submit all required deliverables (paper, slides, code, data, and data dictionary).
