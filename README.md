@@ -25,10 +25,10 @@ Week | Monday | Wednesday
 2 | 8/31: [Python](#class-3-python) | 9/02: [Git & Python Techniques](#class-4-git-and-python-techniques)
 3 | 9/07: No Class (Labor Day) | 9/09: [Machine Learning & Linear Regression from Scratch](#class-5-machine-learning-and-linear-regression)
 4 | 9/14: [APIs & Web Scraping](#class-6-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN](#class-7-numpy-and-k-nn)
-5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas)<br>**Milestone:** Know Your Question and Data Set | 9/23: [scikit-learn](#class-9-scikit-learn)<br>**Homework:** [HW2](./hw/hw2.pdf) due
+5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas) | 9/23: [scikit-learn](#class-9-scikit-learn)<br>**Homework:** [HW2](./hw/hw2.pdf) due.<br>**Milestone:** Know Your Question and Data Set
 6 | 9/28: [Linear Regression II & Data Distributions](#class-10-linear-regression-ii-and-data-distributions) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
-7 | 10/05: [Neural Networks I](#class-12-neural-networks-i) | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)<br>**Milestone:** Data Analysis and Exploration
-8 | 10/12: [Image Data: Neural Networks II](#class-14-image-data-neural-networks-ii) | 10/14: [Feature Selection & Dimensionality Reduction](#class-15-feature-selection-and-dimensionality-reduction)<br>**Homework:** [HW3](./hw/hw3.pdf) due
+7 | 10/05: [Neural Networks I](#class-12-neural-networks-i)<br>**Homework:** [HW3](./hw/hw3.pdf) due | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)
+8 | 10/12: [Image Data: Neural Networks II](#class-14-image-data-neural-networks-ii)<br>**Milestone:** Data Analysis and Exploration | 10/14: [Feature Selection & Dimensionality Reduction](#class-15-feature-selection-and-dimensionality-reduction)
 9 | 10/19: [Text Data: Natural Language Processing](#class-16-text-data-natural-language-processing) | 10/21: [Text Data: Naive Bayes](#class-17-text-data-naive-bayes)<br>**Milestone:** Project Rough Draft Peer Review
 10 | 10/26: [Recommendation Systems](#class-18-recommendation-systems) | 10/28: [Deep Learning: Neural Networks III](#class-19-deep-learning-neural-networks-iii)<br>**Homework:** [HW4](./hw/hw4.pdf) due
 11 | 11/02: [Decision Trees & Random Forests](#class-20-decision-trees-and-random-forests) | 11/04: [Big Data & Course Review](#class-21-big-data-and-course-review)
