@@ -1,7 +1,4 @@
-#Homework 3 | GA Data Science LA 8#
-
-**Out:** Monday, September 23, 2015. 
-**Due (in student repository):** Monday, October 5, 2015.
+#Exercise 3 | GA Data Science LA 8#
 
 **Dataset: hw3-student-logins.csv**.
 
