@@ -243,3 +243,21 @@ Try out Pandas:
  * More Pandas practice!
  * Implement [scikit-learn KNN](http://scikit-learn.org/stable/modules/neighbors.html) and [scikit-learn linear regression](http://scikit-learn.org/stable/modules/linear_model.html) ([another example](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html]) via scikit-learn
 
+ * **Post-class:**
+
+ 	* Try practicing linear regression using scikit-learn's [load_diabetes() dataset](http://scikit-learn.org/stable/datasets/)
+
+ 	* [Fixing a broken image using KNN](http://blog.yhathq.com/posts/classification-using-knn-and-python.html)
+
+
+ 	* Great notebooks on plotting/visualization:
+		* [Plotting with matplotlib and pandas](http://nbviewer.ipython.org/github/teachingdatascience/data-science-course/blob/forstudentviewing/05_Data_Visualization/Archive/Visualization_Instructional_Set.ipynb)
+
+		* [A Gallery of Statistical Graphs in Matplotlib](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb)
+
+		* [Plotting and Visualizations in Python](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb)
+
+
+### Class 10: Linear Regression II and Data Distributions
+	* Linear Regression as a model
+	* Testing if data conforms to a normal distribution
