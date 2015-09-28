@@ -25,6 +25,7 @@ Homeworks:
 Exercises:
 * [EX1: Chicago Housing Prices (Data Exploration)](./ex/ex1-housing-prices.md)
 * [EX2: Matrix Regression (Matrix LinReg)](./ex/ex2-matrix-regression.py)
+* [EX3: Data Distributions (Normal distribution)](./ex/ex3-distributions.ipynb)
 
 Week | Monday | Wednesday
 --- | --- | ---
@@ -33,7 +34,7 @@ Week | Monday | Wednesday
 3 | 9/07: No Class (Labor Day) | 9/09: [Machine Learning & Linear Regression from Scratch](#class-5-machine-learning-and-linear-regression)
 4 | 9/14: [APIs & Web Scraping](#class-6-apis-and-web-scraping)<br>**Homework:** [HW1](./hw/hw1.pdf) due | 9/16: [NumPy & k-NN](#class-7-numpy-and-k-nn)
 5 | 9/21: [Data Exploration with Pandas](#class-8-data-exploration-with-pandas) | 9/23: [scikit-learn](#class-9-scikit-learn)<br>**Homework:** [HW2](./hw/hw2.pdf) due.<br>**Milestone:** Know Your Question and Data Set
-6 | 9/28: [Linear Regression II & Data Distributions](#class-10-linear-regression-ii-and-data-distributions) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
+6 | 9/28: [Data Exploration & Linear Regression II](#class-10-data-exploration-and-linear-regression-ii) | 9/30: [Logistic Regression & AUC](#class-11-logistic-regression-and-auc)
 7 | 10/05: [Neural Networks I](#class-12-neural-networks-i)<br>**Homework:** [HW3](./hw/hw3.pdf) due | 10/07: [Complete Data Science Example](#class-13-complete-data-science-example)
 8 | 10/12: [Image Data: Neural Networks II](#class-14-image-data-neural-networks-ii)<br>**Milestone:** Data Analysis and Exploration | 10/14: [Feature Selection & Dimensionality Reduction](#class-15-feature-selection-and-dimensionality-reduction)
 9 | 10/19: [Text Data: Natural Language Processing](#class-16-text-data-natural-language-processing) | 10/21: [Text Data: Naive Bayes](#class-17-text-data-naive-bayes)<br>**Milestone:** Project Rough Draft Peer Review
@@ -259,6 +260,31 @@ Try out Pandas:
 		* [Plotting and Visualizations in Python](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb)
 
 
-### Class 10: Linear Regression II and Data Distributions
-	* Linear Regression as a model
-	* Testing if data conforms to a normal distribution
+### Class 10: Data Exploration and Linear Regression II
+	* Practice exploring the Chicago Housing dataset
+	* Linear Regression as a model [Slides](./slides/10-linear-regression.pdf)
+ 	* Practice Linear Regression [Notebook](./notebooks/10-linear-regression.ipynb)
+	* Cross Validation [In-Class Notebook](./notebooks/10-cross-validation.ipynb)
+
+**Post-class:**
+ * A few excellent complete examples of Pandas and Linear Regression to work through:
+   * [Washington DC GA: Linear Regression Notebook](./notebooks/10-linear-regression.ipynb)
+   * [San Francisco GA: Linear Regression Notebook](./notebooks/10-extra-linreg.ipynb)
+   * [Data wrangling and exploration in Pandas](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb)
+   * [Extra linreg+KFold example](./code/10-linreg-kfold.py)
+ * Read Chapters 2-3 in [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (free PDF!)
+ * Re-derive linear regression using matrices and/or algebra (see [this PDF](http://isites.harvard.edu/fs/docs/icb.topic515975.files/OLSDerivation.pdf))
+ * Practice on some of the scikit-learn sample datasets, or those in the datasets directory!
+
+
+### Class 11: Logistic Regression
+ * Linear Regression Practice Lab (log fit)
+ * Understand using a confusion matrix for validating classifiers
+ * Understand Logistic Regression
+ * Implement Logistic Regression
+
+**Post-class:**
+ * [LR in Python](http://blog.yhathq.com/posts/logistic-regression-and-python.html)
+ * [Math & Review Materials](https://github.com/patwmcnamara/GADS11-NYC-Summer2014/blob/master/lessons/lesson11_logistic/MoreOnLogisticRegression.md)
+ * [Logistic Regression Intro Video](https://www.youtube.com/watch?v=-Z2a_mzl9LM)
+ * [Confusion Matrix (Wikipedia)](http://en.wikipedia.org/wiki/Confusion_matrix)
