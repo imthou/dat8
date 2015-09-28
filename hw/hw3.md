@@ -3,6 +3,8 @@
 **Out:** Monday, September 23, 2015. 
 **Due (in student repository):** Monday, October 5, 2015.
 
+For this homework, complete either [Homework 3](./hw3.md) or [Homework 3b](./hw3b.md). Homework3b (student logins) is recommended, since it is more straightforward to analyze the data. Submit a Jupyter notebook answering the below questions.
+
 ### The Problem
 
 In this assignment, we are going to recreate (in part) the Kaggle [competition](http://www.kaggle.com/c/job-salary-prediction) to predict salaries based on job descriptions. This problem came from a company called [Adzuna](http://www.adzuna.co.uk/), "The UK's Search Engine for Jobs, Property and Cars." They wanted to be able to predict the salary of a job based on it's description.

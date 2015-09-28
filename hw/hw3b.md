@@ -1,4 +1,9 @@
-#Exercise 3 | GA Data Science LA 8#
+#Homework 3b | GA Data Science LA 8#
+
+**Out:** Monday, September 23, 2015. 
+**Due (in student repository):** Monday, October 5, 2015.
+
+For this homework, complete either [Homework 3](./hw3.md) or [Homework 3b](./hw3b.md). Homework3b (student logins) is recommended, since it is more straightforward to analyze the data. Submit a Jupyter notebook answering the below questions.
 
 **Dataset: hw3-student-logins.csv**.
 
